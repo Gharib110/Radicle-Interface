@@ -1,0 +1,13 @@
+[Unit]
+Description=Radicle-Interface
+
+[Service]
+Type=simple
+Restart=always
+User=xxx
+Group=xxx
+WorkingDirectory=/mnt/radicle-interface/
+ExecStart=npm start
+
+[Install]
+WantedBy=multi-user.target
