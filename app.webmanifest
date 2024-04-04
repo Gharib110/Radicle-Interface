@@ -1,0 +1,16 @@
+{
+  "id": "radicle-interface",
+  "name": "Radicle",
+  "short_name": "Radicle",
+  "description": "Sovereign code infrastructure.",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/images/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    { "src": "/radicle.svg", "type": "image/svg", "sizes": "44x44" }
+  ],
+  "display": "standalone"
+}
